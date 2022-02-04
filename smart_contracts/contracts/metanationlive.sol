@@ -36,7 +36,7 @@ contract MetaNationLive {
         bytes32 parentStream;
         bytes32 contentId;
         int40 votes;
-        int40 subscribers; //
+        int40 subscribers;
         bytes32 categoryId;
     }
 
