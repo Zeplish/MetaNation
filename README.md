@@ -1,16 +1,13 @@
-# `ethereum-boilerplate`
+# `MetaNation`
 
-> React components and hooks for fast building dApps without running own backend
+> Metanation is a decentralised live streaming social network where you can stream and earn crypto.
 
-🚀DEMO: https://ethereum-boilerplate.github.io/ethereum-boilerplate
+🚀DEMO: #
 
-This boilerplate is built on [react-moralis](https://github.com/MoralisWeb3/react-moralis) and [Moralis](https://moralis.io?utm_source=github&utm_medium=readme&utm_campaign=ethereum-boilerplate). Also has its own context provider for quick access to `chainId` or `ethAddress`
+This project is built on [react-moralis](https://github.com/MoralisWeb3/react-moralis) and [Moralis](https://moralis.io?utm_source=github&utm_medium=readme&utm_campaign=ethereum-boilerplate).
 
-There are many components in this boilerplate that do not require an active web3 provider, they use Moralis Web3 API. Moralis supports the most popular blockchains and their test networks. You can find a list of all available networks in [Moralis Supported Chains](https://docs.moralis.io/moralis-server/web3-sdk/intro#supported-chains)
 
 Please check the [official documentation of Moralis](https://docs.moralis.io/#user) for all the functionalities of Moralis.
-
-![daPPdemo](https://user-images.githubusercontent.com/78314301/147088732-e8bbd451-9351-4338-879c-b1535f4df319.gif)
 
 # ⭐️ `Star us`
 
@@ -22,20 +19,20 @@ If you need help with setting up the boilerplate or have other questions - don't
 
 # 🚀 Quick Start
 
-📄 Clone or fork `ethereum-boilerplate`:
+📄 Clone or fork `MetaNation`:
 
 ```sh
-git clone https://github.com/ethereum-boilerplate/ethereum-boilerplate.git
+git clone https://github.com/zeplish/metanation.git
 ```
 
 💿 Install all dependencies:
 
 ```sh
-cd ethereum-boilerplate
+cd metanation
 yarn install
 ```
 
-✏ Rename `.env.example` to `.env` in the main folder and provide your `appId` and `serverUrl` from Moralis ([How to start Moralis Server](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server))
+✏ Add `.env` file in the main folder and provide your `appId` and `serverUrl` from Moralis ([How to start Moralis Server](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server))
 Example:
 
 ```jsx
