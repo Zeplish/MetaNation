@@ -121,6 +121,11 @@ const App = () => {
               <>Please login using the "Authenticate" button</>
             </Route>
           </Switch>
+          {isAuthenticated ? (
+            <Redirect to="/quickstart" />
+          ) : (
+            <Redirect to="/nonauthenticated" />
+          )}
         </div>
       </Router>
       <Footer style={{ textAlign: "center" }}>

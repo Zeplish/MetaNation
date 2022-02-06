@@ -1,5 +1,7 @@
+import { useMoralisQuery } from "react-moralis";
 import { Card, Typography } from "antd";
 import React from "react";
+import Categories from "./Categories";
 
 const { Text } = Typography;
 
@@ -19,6 +21,12 @@ const styles = {
 };
 
 export default function QuickStart() {
+  const queryCategories = useMoralisQuery("Categories");
+  const fetchedCategories = JSON.parse(
+    JSON.stringify(queryCategories.data, ["categoryId", "category"]),
+  );
+
+  console.log(fetchedCategories);
   return (
     <div style={{ display: "flex", gap: "10px" }}>
       <Card
@@ -28,7 +36,9 @@ export default function QuickStart() {
             🗂️ <Text strong>Categories</Text>
           </>
         }
-      ></Card>
+      >
+        <Categories categories={fetchedCategories} />
+      </Card>
       <Card
         style={styles.card}
         title={
