@@ -1,0 +1,68 @@
+.bg-dark {
+  background: rgb(18, 18, 18) !important;
+}
+
+.mainbanner {
+  background-image: url("background.jpeg")
+}
+
+.mainHeading {
+  font-size: 72px;
+  padding: 50px 30px 30px 30px;
+  background: -webkit-linear-gradient(350deg, #fff, rgb(73, 71, 71));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subheading {
+    font-size: 30px;
+    padding: 0 0 50px 0 !important;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-moralis {
+  background: #000000 !important;
+}
+.text-moralis {
+  color: #000000 !important;
+}
+.border-moralis {
+  border-color: #000000 !important;
+}
+.btn-moralis {
+  color: #000000 !important;
+  background: #f2f2f2 !important;
+}
+.btn-moralis:hover {
+  color: #f2f2f2 !important;
+  background: #729103 !important;
+}
+
+.btn-outline-moralis {
+  color: #ffffff !important;
+  background: #000000;
+}
+.btn-outline-moralis:hover {
+  color: #ffffff !important;
+  background: #000000 !important;
+}
+
+.btn-primary {
+  background: #000000 !important;
+  border-color: #000000 !important;
+  color: #f2f2f2;
+}
+.btn-primary:hover {
+  background: #000000 !important;
+  border-color: #000000 !important;
+  color: #f2f2f2;
+}
+
+.card {
+  border-radius: 0.6rem !important;
+}
+
+.border-light {
+  border-color: rgb(61, 61, 61) !important;
+}
