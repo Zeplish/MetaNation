@@ -3,9 +3,9 @@ Moralis.serverURL = "https://4kmjeixtwkna.usemoralis.com:2053/server"
 const TOKEN_CONTRACT_ADDRESS = "0x6e49A077A97Fb6D70F83167159C9708bBa9869FC";
 const MARKETPLACE_CONTRACT_ADDRESS = "0xe314fB7B6e4775E721423e2e2B34ca03f39592FE";
 
-let user = Moralis.User.current();
-let userAddress = user.get("ethAddress");
-console.log(userAddress);
+// let user = Moralis.User.current();
+// let userAddress = user.get("ethAddress");
+// console.log(userAddress);
 init = async () => {
     hideElement(userItemsSection);
     window.web3 = await Moralis.Web3.enable();
